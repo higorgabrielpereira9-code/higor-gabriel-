@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberGamer | Home</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light">
+
+    <!-- MENU / NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top border-bottom border-purple">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-purple" href="index.html">CYBER<span class="text-white">GAMER</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#destaques">Destaques</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#novidades">Novidades</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                    <li class="nav-item"><a class="btn btn-purple ms-2" href="login.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER / CAROUSEL -->
+    <header id="banner" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active bg-banner-1">
+                <div class="carousel-caption d-none d-md-block bg-opaque p-4 rounded">
+                    <h5>Setups Gamer de Última Geração</h5>
+                    <p>Encontre tudo o que você precisa para dominar a partida.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- DESTAQUES -->
+    <main class="container my-5" id="destaques">
+        <h2 class="text-center mb-4 text-purple border-bottom pb-2">Produtos em Destaque</h2>
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light h-100 border-purple-hover">
+                    <div class="p-4 text-center bg-black-50">🕹️ [Imagem Mouse Gamer]</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Mouse Gamer RGB 16000 DPI</h5>
+                        <p class="card-text text-success fw-bold">R$ 249,90</p>
+                        <button class="btn btn-purple btn-comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light h-100 border-purple-hover">
+                    <div class="p-4 text-center bg-black-50">⌨️ [Imagem Teclado Mecânico]</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Teclado Mecânico Switch Blue</h5>
+                        <p class="card-text text-success fw-bold">R$ 399,90</p>
+                        <button class="btn btn-purple btn-comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light h-100 border-purple-hover">
+                    <div class="p-4 text-center bg-black-50">🎧 [Imagem Headset 7.1]</div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Headset Gamer Som Surround 7.1</h5>
+                        <p class="card-text text-success fw-bold">R$ 319,90</p>
+                        <button class="btn btn-purple btn-comprar">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- NOVIDADES (Tabelas e Listas Exigidas no Critério) -->
+    <section class="bg-black py-5" id="novidades">
+        <div class="container">
+            <h2 class="text-center mb-4 text-purple">Próximos Lançamentos & Novidades</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Vantagens do Clube CyberGamer:</h4>
+                    <ul class="list-group bg-dark mb-4">
+                        <li class="list-group-item bg-dark text-light border-secondary">✓ Frete grátis para todo o Brasil</li>
+                        <li class="list-group-item bg-dark text-light border-secondary">✓ 10% de cashback em periféricos</li>
+                        <li class="list-group-item bg-dark text-light border-secondary">✓ Acesso antecipado a hardwares escassos</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Cronograma de Estoque</h4>
+                    <table class="table table-dark table-striped table-bordered border-secondary">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Previsão</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>RTX 5090 Ti</td>
+                                <td>Agosto/2026</td>
+                                <td class="text-warning">Pré-venda</td>
+                            </tr>
+                            <tr>
+                                <td>Monitor OLED 360Hz</td>
+                                <td>Setembro/2026</td>
+                                <td class="text-info">Em rota</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section class="container my-5" id="galeria">
+        <h2 class="text-center mb-4 text-purple">Galeria de Setups dos Clientes</h2>
+        <div class="row g-3">
+            <div class="col-6 col-md-3"><div class="gallery-item bg-secondary p-5 text-center rounded">💻 Setup Neon</div></div>
+            <div class="col-6 col-md-3"><div class="gallery-item bg-secondary p-5 text-center rounded">🔴 Setup Red Danger</div></div>
+            <div class="col-6 col-md-3"><div class="gallery-item bg-secondary p-5 text-center rounded">🟢 Setup Cyberpunk</div></div>
+            <div class="col-6 col-md-3"><div class="gallery-item bg-secondary p-5 text-center rounded">⚪ Setup Minimalista</div></div>
+        </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-black text-center py-4 border-top border-purple text-secondary">
+        <div class="container">
+            <p class="mb-1">&copy; 2026 CYBERGAMER - Todos os direitos reservados.</p>
+            <small>Desenvolvido para Atividade Prática Front-End SENAI.</small>
+        </div>
+    </footer>
+
+    <!-- Scripts: jQuery e Bootstrap Bundle -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
