@@ -1,0 +1,65 @@
+/* Customização de Identidade Visual Gamer */
+:root {
+    --purple-neon: #a020f0;
+    --purple-hover: #bc62ff;
+}
+
+/* Bordas e Elementos Neon */
+.border-purple {
+    border-color: var(--purple-neon) !important;
+}
+
+.text-purple {
+    color: var(--purple-neon) !important;
+}
+
+.btn-purple {
+    background-color: var(--purple-neon);
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-purple:hover {
+    background-color: var(--purple-hover);
+    color: #fff;
+    box-shadow: 0 0 10px var(--purple-neon);
+}
+
+/* Efeito nos cards de produtos */
+.border-purple-hover {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.border-purple-hover:hover {
+    transform: translateY(-5px);
+    border-color: var(--purple-neon) !important;
+    box-shadow: 0 5px 15px rgba(160, 32, 240, 0.4);
+}
+
+/* Banner Fictício usando Background */
+.bg-banner-1 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=1200') center/cover no-repeat;
+    height: 400px;
+}
+
+.bg-opaque {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+/* Itens da Galeria */
+.gallery-item {
+    border: 1px solid #333;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.gallery-item:hover {
+    background-color: #252525 !important;
+    border-color: var(--purple-neon);
+    color: var(--purple-neon);
+}
+
+/* Card de Login */
+.style-login-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
